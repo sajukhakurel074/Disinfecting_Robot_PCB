@@ -388,12 +388,12 @@ $EndComp
 $Comp
 L power:+12V #PWR01
 U 1 1 5F3623D7
-P 900 2350
-F 0 "#PWR01" H 900 2200 50  0001 C CNN
-F 1 "+12V" H 915 2523 50  0000 C CNN
-F 2 "" H 900 2350 50  0001 C CNN
-F 3 "" H 900 2350 50  0001 C CNN
-	1    900  2350
+P 750 2200
+F 0 "#PWR01" H 750 2050 50  0001 C CNN
+F 1 "+12V" H 765 2373 50  0000 C CNN
+F 2 "" H 750 2200 50  0001 C CNN
+F 3 "" H 750 2200 50  0001 C CNN
+	1    750  2200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2737,4 +2737,65 @@ Wire Wire Line
 Wire Wire Line
 	9250 2600 9250 2250
 Connection ~ 9250 2250
+$Comp
+L Device:R R39
+U 1 1 5F3BBC85
+P 3350 6950
+F 0 "R39" H 3420 6996 50  0000 L CNN
+F 1 "R" H 3420 6905 50  0000 L CNN
+F 2 "modFiles:Resistor_small" V 3280 6950 50  0001 C CNN
+F 3 "~" H 3350 6950 50  0001 C CNN
+	1    3350 6950
+	1    0    0    -1  
+$EndComp
+Text Label 3350 6800 1    50   ~ 0
+M3_1
+Text Label 3350 7100 3    50   ~ 0
+M3_1
+$Comp
+L Device:R R40
+U 1 1 5F3BC3AD
+P 3750 6950
+F 0 "R40" H 3820 6996 50  0000 L CNN
+F 1 "R" H 3820 6905 50  0000 L CNN
+F 2 "modFiles:Resistor_small" V 3680 6950 50  0001 C CNN
+F 3 "~" H 3750 6950 50  0001 C CNN
+	1    3750 6950
+	1    0    0    -1  
+$EndComp
+Text Label 3750 6800 1    50   ~ 0
+M3_2
+Text Label 3750 7100 3    50   ~ 0
+M3_2
+$Comp
+L Device:CP1 C1
+U 1 1 5F3BCF50
+P 650 2550
+F 0 "C1" H 675 2650 50  0000 L CNN
+F 1 "CP1" H 675 2450 50  0000 L CNN
+F 2 "modFiles:Capacitor_1000uF" H 650 2550 50  0001 C CNN
+F 3 "~" H 650 2550 50  0001 C CNN
+	1    650  2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  2400 650  2350
+Wire Wire Line
+	650  2350 900  2350
+Wire Wire Line
+	750  2200 900  2200
+Wire Wire Line
+	900  2200 900  2250
+Connection ~ 900  2250
+$Comp
+L power:GND #PWR041
+U 1 1 5F3F976C
+P 650 2700
+F 0 "#PWR041" H 650 2450 50  0001 C CNN
+F 1 "GND" H 655 2527 50  0000 C CNN
+F 2 "" H 650 2700 50  0001 C CNN
+F 3 "" H 650 2700 50  0001 C CNN
+	1    650  2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -484,19 +484,19 @@ F 3 "~" H 5050 1000 50  0001 C CNN
 	1    5050 1000
 	1    0    0    -1  
 $EndComp
-Text Label 5700 2450 0    50   ~ 0
-M0_1
-Text Label 5700 2550 0    50   ~ 0
-M0_2
-Text Label 5700 2650 0    50   ~ 0
-M1_1
 Text Label 5700 2750 0    50   ~ 0
+M0_1
+Text Label 5700 2650 0    50   ~ 0
+M0_2
+Text Label 5700 2550 0    50   ~ 0
+M1_1
+Text Label 5700 2450 0    50   ~ 0
 M1_2
 Text Label 5700 2950 0    50   ~ 0
 M2_1
 Text Label 5700 2850 0    50   ~ 0
 M2_2
-Text Label 5700 3150 0    50   ~ 0
+Text Label 5700 3050 0    50   ~ 0
 M3_1
 $Comp
 L Device:C C37
@@ -2473,7 +2473,7 @@ F 3 "~" H 5500 2750 50  0001 C CNN
 	1    5500 2750
 	1    0    0    -1  
 $EndComp
-Text Label 5700 3050 0    50   ~ 0
+Text Label 5700 3150 0    50   ~ 0
 M3_2
 Wire Wire Line
 	5500 1600 5500 1900
