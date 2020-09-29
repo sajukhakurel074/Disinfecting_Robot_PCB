@@ -4245,4 +4245,17 @@ Wire Wire Line
 Wire Wire Line
 	4400 900  4250 900 
 Connection ~ 4250 900 
+$Comp
+L Connector:Conn_01x01_Female J13
+U 1 1 5F42F269
+P 10450 4550
+F 0 "J13" H 10477 4576 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 10477 4485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 10450 4550 50  0001 C CNN
+F 3 "~" H 10450 4550 50  0001 C CNN
+	1    10450 4550
+	1    0    0    -1  
+$EndComp
+Text Label 10250 4550 2    50   ~ 0
+Z
 $EndSCHEMATC

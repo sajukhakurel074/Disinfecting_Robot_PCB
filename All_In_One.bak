@@ -4230,10 +4230,10 @@ Connection ~ 4700 1100
 Wire Wire Line
 	4700 1100 4600 1100
 $Comp
-L Device:R R?
+L Device:R R74
 U 1 1 5F5CB460
 P 4550 900
-F 0 "R?" H 4620 946 50  0000 L CNN
+F 0 "R74" H 4620 946 50  0000 L CNN
 F 1 "R" H 4620 855 50  0000 L CNN
 F 2 "modFiles:Resistor_small" V 4480 900 50  0001 C CNN
 F 3 "~" H 4550 900 50  0001 C CNN
@@ -4245,4 +4245,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 900  4250 900 
 Connection ~ 4250 900 
+$Comp
+L Connector:Conn_01x01_Female J13
+U 1 1 5F42F269
+P 10450 4550
+F 0 "J13" H 10477 4576 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 10477 4485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 10450 4550 50  0001 C CNN
+F 3 "~" H 10450 4550 50  0001 C CNN
+	1    10450 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
