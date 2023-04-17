@@ -1,5 +1,5 @@
 # Disinfecting_Robot
-Main circuit board design for disinfected robot project.
+Main circuit board design for disinfecting Robot Project.
 
 This project was funded by Nepal Academy of Science and Technology (NAST) during the Covid-19 pandemic. The main aim of this project was to use a remotely comtrolled robot that would spary the disinfecting solution in the infected areas.
 
