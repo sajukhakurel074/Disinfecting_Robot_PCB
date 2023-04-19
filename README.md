@@ -7,7 +7,9 @@ This project was funded by Nepal Academy of Science and Technology (NAST) during
 1. Simple 4 wheel drive
 2. Bluetooth controlled functions
 3. Relay switched Water Pump
-4. 2-D axis spraying arm
+4. 2-D axis spraying arm 
+  - Servo for y-axis
+  - Stepper for x-axis
 5. Proximity sensor at the edges to avoid collision
 
 # Final Board After Assmebly 
